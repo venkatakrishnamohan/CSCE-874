@@ -1,0 +1,23 @@
+@relation weather.symbolic
+
+@attribute outlook {s, o}
+@attribute temperature {h, m}
+@attribute humidity {h, n}
+@attribute windy {t, f}
+@attribute play {y, n}
+
+@data
+s,h,h,f,n
+s,h,h,t,n
+o,h,h,f,y
+s,m,h,f,y
+o,m,n,f,y
+s,h,n,t,n
+o,h,n,t,y
+s,m,h,f,n
+s,h,n,f,y
+s,m,n,f,y
+s,m,n,t,y
+o,m,h,t,y
+o,h,n,f,y
+s,m,h,t,n

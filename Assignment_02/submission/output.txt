@@ -1,0 +1,9 @@
+Beer -> Diaper conf = 1.0  sup= 3
+Eggs-n -> Milk conf = 1.0  sup= 4
+Milk -> Eggs-n conf = 1.0  sup= 4
+Coke-n -> Bread conf = 1.0  sup= 3
+Eggs-n,Bread -> Milk conf = 1.0  sup= 3
+Bread,Milk -> Eggs-n conf = 1.0  sup= 3
+Eggs-n,Diaper -> Milk conf = 1.0  sup= 3
+Milk,Diaper -> Eggs-n conf = 1.0  sup= 3
+Total No.of rules:8
